@@ -13,3 +13,7 @@ class AirthmeticTestCase(TestCase):
         c = self.a+self.b
         print c
         self.assertEqual(c, 30)
+    def test_sub(self):
+        c = self.a-self.b
+        print c
+        self.assertEqual(c,30)

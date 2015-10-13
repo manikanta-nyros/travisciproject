@@ -1,3 +1,6 @@
+dependencies:
+  override:
+    - pip install -r conf/requirements.txt
 test:
   override:
     - python manage.py test

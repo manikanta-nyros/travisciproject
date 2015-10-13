@@ -1,0 +1,6 @@
+machine:
+  python:
+    version: pypy-2.7.6
+test:
+  override:
+    - manage.py test
